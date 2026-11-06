@@ -1,0 +1,543 @@
+{
+  "captured_date": "2026-11-06",
+  "source": "https://game-on-w3-demo.vercel.app",
+  "mode": "actual hosted LangGraph; fictional group and simulated provider; deterministic decisions",
+  "scenarios": [
+    {
+      "scenario": "A",
+      "stop_reason": "completed",
+      "events": [
+        {
+          "sequence": 1,
+          "node": "DECIDE",
+          "tool": "read_game",
+          "decision_source": "deterministic",
+          "reason_code": "prerequisite",
+          "observation": null,
+          "iteration": 1,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 2,
+          "node": "TOOL",
+          "tool": "read_game",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": null,
+          "iteration": 1,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 3,
+          "node": "OBSERVE",
+          "tool": "read_game",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": {
+            "status": "success",
+            "player_count": 2,
+            "slot_count": 2
+          },
+          "iteration": 1,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 4,
+          "node": "DECIDE",
+          "tool": "schedule_game",
+          "decision_source": "deterministic",
+          "reason_code": "prerequisite",
+          "observation": null,
+          "iteration": 2,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 5,
+          "node": "TOOL",
+          "tool": "schedule_game",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": null,
+          "iteration": 2,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 6,
+          "node": "OBSERVE",
+          "tool": "schedule_game",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": {
+            "status": "ready",
+            "eligible_time_count": 2
+          },
+          "iteration": 2,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 7,
+          "node": "DECIDE",
+          "tool": "discover_courts",
+          "decision_source": "deterministic",
+          "reason_code": "eligible_time",
+          "observation": null,
+          "iteration": 3,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 8,
+          "node": "TOOL",
+          "tool": "discover_courts",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": null,
+          "iteration": 3,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 9,
+          "node": "OBSERVE",
+          "tool": "discover_courts",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": {
+            "status": "results",
+            "slot_id": "slot-0",
+            "court_count": 2
+          },
+          "iteration": 3,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 10,
+          "node": "DECIDE",
+          "tool": null,
+          "decision_source": "deterministic",
+          "reason_code": "candidates_found",
+          "observation": null,
+          "iteration": 4,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 11,
+          "node": "FINISH",
+          "tool": null,
+          "decision_source": null,
+          "reason_code": null,
+          "observation": null,
+          "iteration": 4,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": {
+            "action": "PROCEED_TO_DISCOVERY",
+            "outcome": "discovery_recommendation"
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "B",
+      "stop_reason": "completed",
+      "events": [
+        {
+          "sequence": 1,
+          "node": "DECIDE",
+          "tool": "read_game",
+          "decision_source": "deterministic",
+          "reason_code": "prerequisite",
+          "observation": null,
+          "iteration": 1,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 2,
+          "node": "TOOL",
+          "tool": "read_game",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": null,
+          "iteration": 1,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 3,
+          "node": "OBSERVE",
+          "tool": "read_game",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": {
+            "status": "success",
+            "player_count": 2,
+            "slot_count": 2
+          },
+          "iteration": 1,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 4,
+          "node": "DECIDE",
+          "tool": "schedule_game",
+          "decision_source": "deterministic",
+          "reason_code": "prerequisite",
+          "observation": null,
+          "iteration": 2,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 5,
+          "node": "TOOL",
+          "tool": "schedule_game",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": null,
+          "iteration": 2,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 6,
+          "node": "OBSERVE",
+          "tool": "schedule_game",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": {
+            "status": "ready",
+            "eligible_time_count": 2
+          },
+          "iteration": 2,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 7,
+          "node": "DECIDE",
+          "tool": "discover_courts",
+          "decision_source": "deterministic",
+          "reason_code": "eligible_time",
+          "observation": null,
+          "iteration": 3,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 8,
+          "node": "TOOL",
+          "tool": "discover_courts",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": null,
+          "iteration": 3,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 9,
+          "node": "OBSERVE",
+          "tool": "discover_courts",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": {
+            "status": "empty",
+            "slot_id": "slot-0",
+            "court_count": 0
+          },
+          "iteration": 3,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 10,
+          "node": "DECIDE",
+          "tool": "discover_courts",
+          "decision_source": "deterministic",
+          "reason_code": "alternative_slot",
+          "observation": null,
+          "iteration": 4,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 11,
+          "node": "TOOL",
+          "tool": "discover_courts",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": null,
+          "iteration": 4,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 12,
+          "node": "OBSERVE",
+          "tool": "discover_courts",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": {
+            "status": "results",
+            "slot_id": "slot-1",
+            "court_count": 1
+          },
+          "iteration": 4,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 13,
+          "node": "DECIDE",
+          "tool": null,
+          "decision_source": "deterministic",
+          "reason_code": "candidates_found",
+          "observation": null,
+          "iteration": 5,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 14,
+          "node": "FINISH",
+          "tool": null,
+          "decision_source": null,
+          "reason_code": null,
+          "observation": null,
+          "iteration": 5,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": {
+            "action": "PROCEED_TO_DISCOVERY",
+            "outcome": "discovery_recommendation"
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "C",
+      "stop_reason": "completed",
+      "events": [
+        {
+          "sequence": 1,
+          "node": "DECIDE",
+          "tool": "read_game",
+          "decision_source": "deterministic",
+          "reason_code": "prerequisite",
+          "observation": null,
+          "iteration": 1,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 2,
+          "node": "TOOL",
+          "tool": "read_game",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": null,
+          "iteration": 1,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 3,
+          "node": "OBSERVE",
+          "tool": "read_game",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": {
+            "status": "success",
+            "player_count": 2,
+            "slot_count": 2
+          },
+          "iteration": 1,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 4,
+          "node": "DECIDE",
+          "tool": "schedule_game",
+          "decision_source": "deterministic",
+          "reason_code": "prerequisite",
+          "observation": null,
+          "iteration": 2,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 5,
+          "node": "TOOL",
+          "tool": "schedule_game",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": null,
+          "iteration": 2,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 6,
+          "node": "OBSERVE",
+          "tool": "schedule_game",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": {
+            "status": "ready",
+            "eligible_time_count": 2
+          },
+          "iteration": 2,
+          "simulated": false,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 7,
+          "node": "DECIDE",
+          "tool": "discover_courts",
+          "decision_source": "deterministic",
+          "reason_code": "eligible_time",
+          "observation": null,
+          "iteration": 3,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 8,
+          "node": "TOOL",
+          "tool": "discover_courts",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": null,
+          "iteration": 3,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 9,
+          "node": "OBSERVE",
+          "tool": "discover_courts",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": {
+            "status": "empty",
+            "slot_id": "slot-0",
+            "court_count": 0
+          },
+          "iteration": 3,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 10,
+          "node": "DECIDE",
+          "tool": "discover_courts",
+          "decision_source": "deterministic",
+          "reason_code": "alternative_slot",
+          "observation": null,
+          "iteration": 4,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 11,
+          "node": "TOOL",
+          "tool": "discover_courts",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": null,
+          "iteration": 4,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 12,
+          "node": "OBSERVE",
+          "tool": "discover_courts",
+          "decision_source": null,
+          "reason_code": null,
+          "observation": {
+            "status": "empty",
+            "slot_id": "slot-1",
+            "court_count": 0
+          },
+          "iteration": 4,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 13,
+          "node": "DECIDE",
+          "tool": null,
+          "decision_source": "deterministic",
+          "reason_code": "search_exhausted",
+          "observation": null,
+          "iteration": 5,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": null
+        },
+        {
+          "sequence": 14,
+          "node": "FINISH",
+          "tool": null,
+          "decision_source": null,
+          "reason_code": null,
+          "observation": null,
+          "iteration": 5,
+          "simulated": true,
+          "fictional_demo": true,
+          "terminal_outcome": {
+            "action": "REQUEST_HELP",
+            "outcome": "search_exhausted"
+          }
+        }
+      ]
+    }
+  ]
+}

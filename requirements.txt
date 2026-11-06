@@ -1,0 +1,9 @@
+# IANA timezone data for zoneinfo, including on Windows.
+tzdata==2026.6
+psycopg[binary]==3.3.6
+python-dotenv==1.2.4
+fastapi==0.162.0
+uvicorn==0.54.0
+PyJWT[crypto]==2.15.1
+langgraph==1.2.19
+pydantic==2.14.2

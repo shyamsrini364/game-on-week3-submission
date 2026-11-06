@@ -1,0 +1,29 @@
+{
+  "observation_id": "recorded-observation_id",
+  "snapshot_id": "recorded-snapshot_id",
+  "slot_id": "recorded-slot_id",
+  "venue_id": "level-up-knox",
+  "revision": "recorded-revision",
+  "player_count": 2,
+  "observed_at": "2026-11-05T07:09:38.995944Z",
+  "source_url": "https://www.leveluppickleball.com.au/book",
+  "simulated": false,
+  "source": "live_browser_summary",
+  "status": "results",
+  "options": [
+    {
+      "court_id": "court-3",
+      "court_name": "Court 3",
+      "starts_at": "2026-11-08T18:30:00+11:00",
+      "ends_at": "2026-11-08T19:30:00+11:00",
+      "currency": "AUD",
+      "base_minor": 4545,
+      "total_minor": 5000,
+      "fees_minor": null,
+      "tax_minor": 455,
+      "per_player_minor": null,
+      "provider_players": 1,
+      "conditions": "Displayed quote only; inventory/hold not guaranteed. No reservation confirmed. Provider player setting is not attendance capacity."
+    }
+  ]
+}

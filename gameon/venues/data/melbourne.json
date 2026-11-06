@@ -1,0 +1,943 @@
+[
+  {
+    "id": "level-up-knox",
+    "name": "Level Up Pickleball",
+    "suburb": "Wantirna South",
+    "address": "Westfield Knox, Shop 9068C, Knox Ozone, Wantirna South VIC 3152",
+    "location": {
+      "latitude": -37.881,
+      "longitude": 145.224,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Wantirna_South,_Victoria"
+    },
+    "website_url": "https://www.leveluppickleball.com.au/",
+    "booking_url": "https://www.leveluppickleball.com.au/book",
+    "booking_provider": "Playbypoint",
+    "provider_evidence_url": "https://book.leveluppickleball.com.au/users/sign_in",
+    "sources": [
+      "https://www.nplpickleball.com.au/pickleball/melbourne",
+      "https://book.leveluppickleball.com.au/users/sign_in"
+    ],
+    "checked_on": "2026-11-03",
+    "indoor": true,
+    "notes": [
+      "Location is a suburb reference point, not the venue entrance. Court availability has not been checked."
+    ],
+    "state": "VIC",
+    "postcode": "3152",
+    "venue_type": "dedicated_centre"
+  },
+  {
+    "id": "pickleholic-clayton",
+    "name": "Pickleholic",
+    "suburb": "Clayton",
+    "address": "45 Winterton Road, Clayton VIC 3168",
+    "location": {
+      "latitude": -37.915,
+      "longitude": 145.13,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Clayton,_Victoria"
+    },
+    "website_url": "https://www.pickleholic.com.au/",
+    "booking_url": "https://book.pickleholic.com.au/book/Pickleholic",
+    "booking_provider": "Playbypoint",
+    "provider_evidence_url": "https://book.pickleholic.com.au/users/sign_in",
+    "sources": [
+      "https://www.pickleholic.com.au/",
+      "https://book.pickleholic.com.au/users/sign_in"
+    ],
+    "checked_on": "2026-11-03",
+    "indoor": true,
+    "notes": [
+      "Location is a suburb reference point, not the venue entrance. Court availability has not been checked.",
+      "Rendered price placeholders are not accepted as verified prices."
+    ],
+    "map_location": {
+      "latitude": -37.9153,
+      "longitude": 145.1153,
+      "accuracy": "verified_venue",
+      "source_url": "https://www.pickleholic.com.au/",
+      "checked_on": "2026-11-04"
+    },
+    "state": "VIC",
+    "postcode": "3168",
+    "venue_type": "dedicated_centre"
+  },
+  {
+    "id": "picklezone-springvale",
+    "name": "PickleZone",
+    "suburb": "Springvale",
+    "address": "6 Brough St, Springvale VIC 3171",
+    "location": {
+      "latitude": -37.947,
+      "longitude": 145.153,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Springvale,_Victoria"
+    },
+    "website_url": "https://picklezone.com.au/",
+    "booking_url": "https://picklezone.sportlogic.net.au/secure/customer/booking/v2/public/venues",
+    "booking_provider": "SportLogic",
+    "provider_evidence_url": "https://picklezone.com.au/",
+    "sources": [
+      "https://picklezone.com.au/"
+    ],
+    "checked_on": "2026-11-03",
+    "indoor": true,
+    "notes": [
+      "Location is a suburb reference point, not the venue entrance. Court availability has not been checked.",
+      "Temporary promotional price excluded: no stated end date or slot-specific confirmation."
+    ],
+    "map_location": {
+      "latitude": -37.9421439,
+      "longitude": 145.169104,
+      "accuracy": "verified_venue",
+      "source_url": "https://picklezone.com.au/",
+      "checked_on": "2026-11-04"
+    },
+    "state": "VIC",
+    "postcode": "3171",
+    "venue_type": "dedicated_centre"
+  },
+  {
+    "id": "the-jar-maidstone",
+    "name": "The Jar Maidstone",
+    "suburb": "Maidstone",
+    "address": "35 Emu Road, Maidstone VIC 3012",
+    "location": {
+      "latitude": -37.783,
+      "longitude": 144.878,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Maidstone,_Victoria"
+    },
+    "website_url": "https://thejar.club/maidstone",
+    "booking_url": "https://thejar.club/maidstone",
+    "booking_provider": null,
+    "provider_evidence_url": null,
+    "sources": [
+      "https://thejar.club/maidstone",
+      "https://www.nplpickleball.com.au/pickleball/melbourne"
+    ],
+    "checked_on": "2026-11-03",
+    "indoor": true,
+    "notes": [
+      "Location is a suburb reference point, not the venue entrance. Court availability has not been checked."
+    ],
+    "map_location": {
+      "latitude": -37.7831,
+      "longitude": 144.8849,
+      "accuracy": "verified_venue",
+      "source_url": "https://thejar.club/maidstone",
+      "checked_on": "2026-11-04"
+    },
+    "state": "VIC",
+    "postcode": "3012",
+    "venue_type": "dedicated_centre"
+  },
+  {
+    "id": "palace-pascoe-vale",
+    "name": "Pickleball Palace Pascoe Vale",
+    "suburb": "Pascoe Vale",
+    "address": "2 Attercliffe Avenue, Pascoe Vale VIC 3044",
+    "location": {
+      "latitude": -37.727,
+      "longitude": 144.942,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Pascoe_Vale,_Victoria"
+    },
+    "website_url": "https://pickleballpalace.com.au/pascoe-vale/",
+    "booking_url": "https://pickleballpalace.playbypoint.com/",
+    "booking_provider": "Playbypoint",
+    "provider_evidence_url": "https://pickleballpalace.com.au/pascoe-vale/",
+    "sources": [
+      "https://pickleballpalace.com.au/pascoe-vale/"
+    ],
+    "checked_on": "2026-11-03",
+    "indoor": true,
+    "notes": [
+      "Location is a suburb reference point, not the venue entrance. Court availability has not been checked.",
+      "Official page requests at least 24 hours notice to confirm bookings; check with venue."
+    ],
+    "price": {
+      "aud_per_court_hour": 50.0,
+      "basis": "advertised_nonmember_rate",
+      "note": "Advertised non-member rate; off-peak discounts may apply. Not a slot quote.",
+      "source_url": "https://pickleballpalace.com.au/pascoe-vale/"
+    },
+    "state": "VIC",
+    "postcode": "3044",
+    "venue_type": "dedicated_centre"
+  },
+  {
+    "id": "the-rally-altona",
+    "name": "The Rally Pickleball",
+    "suburb": "Altona",
+    "address": "82 Drake Blvd, Altona VIC 3018",
+    "location": {
+      "latitude": -37.868,
+      "longitude": 144.83,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Altona,_Victoria"
+    },
+    "website_url": "https://therallypickleball.playbypoint.com/",
+    "booking_url": "https://therallypickleball.playbypoint.com/",
+    "booking_provider": "Playbypoint",
+    "provider_evidence_url": "https://therallypickleball.playbypoint.com/",
+    "sources": [
+      "https://www.nplpickleball.com.au/pickleball/melbourne",
+      "https://therallypickleball.playbypoint.com/"
+    ],
+    "checked_on": "2026-11-03",
+    "indoor": null,
+    "notes": [
+      "Location is a suburb reference point, not the venue entrance. Court availability has not been checked."
+    ],
+    "state": "VIC",
+    "postcode": "3018",
+    "venue_type": "dedicated_centre"
+  },
+  {
+    "id": "state-pickleball-bayswater",
+    "name": "State Pickleball Centre",
+    "suburb": "Bayswater",
+    "address": "13 Burton Ct, Bayswater VIC 3153",
+    "location": {
+      "latitude": -37.843,
+      "longitude": 145.268,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Bayswater,_Victoria"
+    },
+    "website_url": "https://www.statepickleball.com.au/",
+    "booking_url": "https://statepickleballcentre.playbypoint.com/",
+    "booking_provider": "Playbypoint",
+    "provider_evidence_url": "https://statepickleballcentre.playbypoint.com/",
+    "sources": [
+      "https://www.statepickleball.com.au/",
+      "https://statepickleballcentre.playbypoint.com/"
+    ],
+    "checked_on": "2026-11-03",
+    "notes": [
+      "Coarse Bayswater reference point, not the venue entrance. Near Boronia. Availability has not been checked.",
+      "Visit the official booking site to check current prices and court times."
+    ],
+    "state": "VIC",
+    "postcode": "3153",
+    "venue_type": "dedicated_centre"
+  },
+  {
+    "id": "melbourne-pickle-moorabbin",
+    "name": "Melbourne Pickle Club",
+    "suburb": "Moorabbin",
+    "address": "4 Nellbern Road, Moorabbin VIC 3189",
+    "postcode": "3189",
+    "state": "VIC",
+    "venue_type": "dedicated_centre",
+    "location": {
+      "latitude": -37.941,
+      "longitude": 145.058,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Moorabbin"
+    },
+    "website_url": "https://melbournepickleclub.playbypoint.com/",
+    "enquiry_url": "https://melbournepickleclub.playbypoint.com/",
+    "booking_url": "https://melbournepickleclub.playbypoint.com/book/MelbournePickleClub",
+    "sources": [
+      "https://melbournepickleclub.playbypoint.com/",
+      "https://melbournepickleclub.com.au/"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": null,
+    "outdoor": null,
+    "notes": [
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions.",
+      "Map pin is an approximate suburb reference, not a court entrance."
+    ],
+    "booking_provider": "Playbypoint",
+    "provider_evidence_url": "https://melbournepickleclub.playbypoint.com/"
+  },
+  {
+    "id": "pickle-haus-brooklyn",
+    "name": "Pickle Haus",
+    "suburb": "Brooklyn",
+    "address": "570 Grieve Parade, Brooklyn VIC 3012",
+    "postcode": "3012",
+    "state": "VIC",
+    "venue_type": "dedicated_centre",
+    "location": {
+      "latitude": -37.813,
+      "longitude": 144.841,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Brooklyn,_Victoria"
+    },
+    "website_url": "https://picklehaus.com.au/",
+    "enquiry_url": "https://picklehaus.com.au/",
+    "booking_url": "https://picklehausau.playbypoint.com/book/picklehausau",
+    "sources": [
+      "https://picklehaus.com.au/"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": true,
+    "outdoor": null,
+    "notes": [
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions."
+    ],
+    "map_location": {
+      "latitude": -37.8284,
+      "longitude": 144.8568,
+      "accuracy": "verified_venue",
+      "checked_on": "2026-11-04",
+      "source_url": "https://picklehaus.com.au/"
+    },
+    "booking_provider": "Playbypoint",
+    "provider_evidence_url": "https://picklehaus.com.au/"
+  },
+  {
+    "id": "bayside-hampton",
+    "name": "Bayside Pickleball Club - Hampton",
+    "suburb": "Hampton",
+    "address": "221 Thomas Street, Hampton VIC 3188",
+    "postcode": "3188",
+    "state": "VIC",
+    "venue_type": "club",
+    "location": {
+      "latitude": -37.937,
+      "longitude": 145.009,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Hampton,_Victoria"
+    },
+    "website_url": "https://melbournebaysidepickleball.au/",
+    "enquiry_url": "https://melbournebaysidepickleball.au/",
+    "booking_url": null,
+    "sources": [
+      "https://melbournebaysidepickleball.au/"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": true,
+    "outdoor": null,
+    "notes": [
+      "Club sessions require affiliate membership for insurance; check guest access with the club.",
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions.",
+      "Map pin is an approximate suburb reference, not a court entrance."
+    ]
+  },
+  {
+    "id": "real-dill-ravenhall",
+    "name": "The Real Dill - Ravenhall",
+    "suburb": "Ravenhall",
+    "address": "1/20 Eucumbene Drive, Ravenhall VIC 3023",
+    "postcode": "3023",
+    "state": "VIC",
+    "venue_type": "dedicated_centre",
+    "location": {
+      "latitude": -37.765,
+      "longitude": 144.75,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Ravenhall,_Victoria"
+    },
+    "website_url": "https://www.therealdill.com.au/",
+    "enquiry_url": "https://www.therealdill.com.au/",
+    "booking_url": "https://therealdill.playbypoint.com/",
+    "sources": [
+      "https://www.therealdill.com.au/"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": null,
+    "outdoor": null,
+    "notes": [
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions."
+    ],
+    "map_location": {
+      "latitude": -37.7590212,
+      "longitude": 144.7423232,
+      "accuracy": "verified_venue",
+      "checked_on": "2026-11-04",
+      "source_url": "https://www.therealdill.com.au/"
+    },
+    "booking_provider": "Playbypoint",
+    "provider_evidence_url": "https://www.therealdill.com.au/"
+  },
+  {
+    "id": "real-dill-epping",
+    "name": "The Real Dill - Epping",
+    "suburb": "Epping",
+    "address": "22 Boxwood Court, Epping VIC 3076",
+    "postcode": "3076",
+    "state": "VIC",
+    "venue_type": "dedicated_centre",
+    "location": {
+      "latitude": -37.63778,
+      "longitude": 145.02639,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Epping,_Victoria"
+    },
+    "website_url": "https://www.therealdill.com.au/",
+    "enquiry_url": "https://www.therealdill.com.au/",
+    "booking_url": "https://therealdillepping.playbypoint.com/",
+    "sources": [
+      "https://www.therealdill.com.au/"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": null,
+    "outdoor": null,
+    "notes": [
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions.",
+      "Map pin is an approximate suburb reference, not a court entrance."
+    ],
+    "booking_provider": "Playbypoint",
+    "provider_evidence_url": "https://www.therealdill.com.au/"
+  },
+  {
+    "id": "the-jar-south-melbourne",
+    "name": "The Jar - South Melbourne",
+    "suburb": "South Melbourne",
+    "address": "29 White Street, South Melbourne VIC 3205",
+    "postcode": "3205",
+    "state": "VIC",
+    "venue_type": "dedicated_centre",
+    "location": {
+      "latitude": -37.835,
+      "longitude": 144.96,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/South_Melbourne"
+    },
+    "website_url": "https://thejar.club/southmelbourne",
+    "enquiry_url": "https://thejar.club/southmelbourne",
+    "booking_url": null,
+    "sources": [
+      "https://thejar.club/southmelbourne"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": null,
+    "outdoor": null,
+    "notes": [
+      "Operator metadata contains two differing coordinate pairs; approximate fallback retained pending clarification.",
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions.",
+      "Map pin is an approximate suburb reference, not a court entrance."
+    ]
+  },
+  {
+    "id": "swing-serve-bundoora",
+    "name": "Swing & Serve",
+    "suburb": "Bundoora",
+    "address": "906 Plenty Road, Bundoora VIC 3083",
+    "postcode": "3083",
+    "state": "VIC",
+    "venue_type": "shared_facility",
+    "location": {
+      "latitude": -37.695,
+      "longitude": 145.064,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Bundoora"
+    },
+    "website_url": "https://www.swingandserve.com.au/pickleball",
+    "enquiry_url": "https://www.swingandserve.com.au/pickleball",
+    "booking_url": "https://swingandserve.playbypoint.com/book/swingandserve",
+    "sources": [
+      "https://www.swingandserve.com.au/pickleball",
+      "https://www.swingandserve.com.au/contact"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": null,
+    "outdoor": null,
+    "notes": [
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions."
+    ],
+    "map_location": {
+      "latitude": -37.696861,
+      "longitude": 145.053177,
+      "accuracy": "verified_venue",
+      "checked_on": "2026-11-04",
+      "source_url": "https://www.swingandserve.com.au/pickleball"
+    },
+    "booking_provider": "Playbypoint",
+    "provider_evidence_url": "https://www.swingandserve.com.au/pickleball"
+  },
+  {
+    "id": "elsternwick-park-brighton",
+    "name": "Elsternwick Park Tennis Centre",
+    "suburb": "Brighton",
+    "address": "464 St Kilda Street, Brighton VIC 3186",
+    "postcode": "3186",
+    "state": "VIC",
+    "venue_type": "shared_facility",
+    "location": {
+      "latitude": -37.905,
+      "longitude": 144.996,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Brighton,_Victoria"
+    },
+    "website_url": "https://www.elsternwickparktenniscentre.com.au/pickleball.html",
+    "enquiry_url": "https://www.elsternwickparktenniscentre.com.au/pickleball.html",
+    "booking_url": "https://www.elsternwickparktenniscentre.com.au/courthire.html",
+    "sources": [
+      "https://www.elsternwickparktenniscentre.com.au/pickleball.html",
+      "https://www.elsternwickparktenniscentre.com.au/"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": null,
+    "outdoor": null,
+    "notes": [
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions."
+    ],
+    "map_location": {
+      "latitude": -37.8838137,
+      "longitude": 144.9926053,
+      "accuracy": "verified_venue",
+      "checked_on": "2026-11-04",
+      "source_url": "https://www.elsternwickparktenniscentre.com.au/pickleball.html"
+    }
+  },
+  {
+    "id": "powerhouse-noble-park-north",
+    "name": "Pickleball Powerhouse",
+    "suburb": "Noble Park North",
+    "address": "2-4 Overseas Drive, Noble Park North VIC 3174",
+    "postcode": "3174",
+    "state": "VIC",
+    "venue_type": "dedicated_centre",
+    "location": {
+      "latitude": -37.942,
+      "longitude": 145.19,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Noble_Park_North"
+    },
+    "website_url": "https://pickleballpowerhouse.com.au/",
+    "enquiry_url": "https://pickleballpowerhouse.com.au/",
+    "booking_url": null,
+    "sources": [
+      "https://pickleballpowerhouse.com.au/"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": null,
+    "outdoor": null,
+    "notes": [
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions.",
+      "Map pin is an approximate suburb reference, not a court entrance."
+    ]
+  },
+  {
+    "id": "pickle4real-mentone",
+    "name": "Pickle4Real Pickleball Club",
+    "suburb": "Mentone",
+    "address": "36-40 Shearson Crescent, Mentone VIC 3194",
+    "postcode": "3194",
+    "state": "VIC",
+    "venue_type": "dedicated_centre",
+    "location": {
+      "latitude": -37.985,
+      "longitude": 145.06889,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Mentone,_Victoria"
+    },
+    "website_url": "https://pickle4real.com.au/",
+    "enquiry_url": "https://pickle4real.com.au/",
+    "booking_url": null,
+    "sources": [
+      "https://pickle4real.com.au/"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": true,
+    "outdoor": null,
+    "notes": [
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions.",
+      "Map pin is an approximate suburb reference, not a court entrance."
+    ]
+  },
+  {
+    "id": "pickleplay-bentleigh-east",
+    "name": "PicklePlay",
+    "suburb": "Bentleigh East",
+    "address": "1 South Drive, Bentleigh East VIC 3165",
+    "postcode": "3165",
+    "state": "VIC",
+    "venue_type": "dedicated_centre",
+    "location": {
+      "latitude": -37.921,
+      "longitude": 145.067,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Bentleigh_East"
+    },
+    "website_url": "https://pickleplay.com.au/",
+    "enquiry_url": "https://pickleplay.com.au/",
+    "booking_url": "https://pickleplay.sportlogic.net.au/secure/customer/booking/v2/public/venue/1",
+    "sources": [
+      "https://pickleplay.com.au/",
+      "https://pickleplay.com.au/contact-us/"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": true,
+    "outdoor": null,
+    "notes": [
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions.",
+      "Map pin is an approximate suburb reference, not a court entrance."
+    ],
+    "booking_provider": "SportLogic",
+    "provider_evidence_url": "https://pickleplay.com.au/"
+  },
+  {
+    "id": "wangaratta-hardcourt",
+    "name": "Wangaratta Hardcourt Tennis and Pickleball Club",
+    "suburb": "Wangaratta",
+    "address": "Barr Reserve, Schilling Drive, Wangaratta VIC 3677",
+    "postcode": "3677",
+    "state": "VIC",
+    "venue_type": "club",
+    "location": {
+      "latitude": -36.35833,
+      "longitude": 146.3125,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Wangaratta"
+    },
+    "website_url": "https://wangaratta-pickleball.com.au/",
+    "enquiry_url": "https://wangaratta-pickleball.com.au/",
+    "booking_url": null,
+    "sources": [
+      "https://wangaratta-pickleball.com.au/"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": null,
+    "outdoor": null,
+    "notes": [
+      "Club location is Barr Reserve; do not reuse the conflicting third-party Merriwa Park listing.",
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions.",
+      "Map pin is an approximate suburb reference, not a court entrance."
+    ]
+  },
+  {
+    "id": "margaret-connellan-chadstone",
+    "name": "Margaret Connellan Stadium",
+    "suburb": "Chadstone",
+    "address": "Percy Treyvaud Memorial Park, Chadstone Road, Chadstone VIC 3145",
+    "postcode": "3145",
+    "state": "VIC",
+    "venue_type": "shared_facility",
+    "location": {
+      "latitude": -37.883,
+      "longitude": 145.093,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Chadstone,_Victoria"
+    },
+    "website_url": "https://www.stonnington.vic.gov.au/active/Sport-and-facilities/Stadiums/Margaret-Connellan-Stadium",
+    "enquiry_url": "https://www.stonnington.vic.gov.au/active/Sport-and-facilities/Stadiums/Margaret-Connellan-Stadium",
+    "booking_url": null,
+    "sources": [
+      "https://www.stonnington.vic.gov.au/active/Sport-and-facilities/Stadiums/Margaret-Connellan-Stadium"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": true,
+    "outdoor": null,
+    "notes": [
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions.",
+      "Map pin is an approximate suburb reference, not a court entrance."
+    ]
+  },
+  {
+    "id": "glen-waverley-bowls",
+    "name": "Glen Waverley Bowls Club Pickleball",
+    "suburb": "Glen Waverley",
+    "address": "690 Waverley Road, Glen Waverley VIC 3150",
+    "postcode": "3150",
+    "state": "VIC",
+    "venue_type": "club",
+    "location": {
+      "latitude": -37.88,
+      "longitude": 145.164,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Glen_Waverley,_Victoria"
+    },
+    "website_url": "https://www.monash.vic.gov.au/Community/Community-Directory/Glen-Waverley-Bowls-Club-and-Function-Centre",
+    "enquiry_url": "https://www.monash.vic.gov.au/Community/Community-Directory/Glen-Waverley-Bowls-Club-and-Function-Centre",
+    "booking_url": null,
+    "sources": [
+      "https://www.monash.vic.gov.au/Community/Community-Directory/Glen-Waverley-Bowls-Club-and-Function-Centre"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": null,
+    "outdoor": true,
+    "notes": [
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions.",
+      "Map pin is an approximate suburb reference, not a court entrance."
+    ]
+  },
+  {
+    "id": "carlson-reserve-clayton",
+    "name": "Carlson Reserve multi-sport courts",
+    "suburb": "Clayton",
+    "address": "64-72 Clayton Road, Clayton VIC 3168",
+    "postcode": "3168",
+    "state": "VIC",
+    "venue_type": "shared_facility",
+    "location": {
+      "latitude": -37.915,
+      "longitude": 145.13,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Clayton,_Victoria"
+    },
+    "website_url": "https://shape.monash.vic.gov.au/carlson-courts",
+    "enquiry_url": "https://shape.monash.vic.gov.au/carlson-courts",
+    "booking_url": null,
+    "sources": [
+      "https://shape.monash.vic.gov.au/carlson-courts"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": null,
+    "outdoor": true,
+    "notes": [
+      "Public multi-sport courts; the council states no bookings are required. Access and playability still need checking.",
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions.",
+      "Map pin is an approximate suburb reference, not a court entrance."
+    ]
+  },
+  {
+    "id": "patterson-lakes-community",
+    "name": "Patterson Lakes Community Centre",
+    "suburb": "Patterson Lakes",
+    "address": "54-70 Thompson Road, Patterson Lakes VIC 3197",
+    "postcode": "3197",
+    "state": "VIC",
+    "venue_type": "shared_facility",
+    "location": {
+      "latitude": -38.076,
+      "longitude": 145.122,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Patterson_Lakes,_Victoria"
+    },
+    "website_url": "https://www.kingston.vic.gov.au/community/events/upcoming-events/social-pickleball-patterson-lakes",
+    "enquiry_url": "https://www.kingston.vic.gov.au/community/events/upcoming-events/social-pickleball-patterson-lakes",
+    "booking_url": null,
+    "sources": [
+      "https://www.kingston.vic.gov.au/community/events/upcoming-events/social-pickleball-patterson-lakes"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": null,
+    "outdoor": null,
+    "notes": [
+      "Social sessions require induction and booking. Induction registration is not private court hire.",
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions.",
+      "Map pin is an approximate suburb reference, not a court entrance."
+    ]
+  },
+  {
+    "id": "leisuretime-norlane",
+    "name": "Leisuretime Sports Precinct",
+    "suburb": "Norlane",
+    "address": "262-282 Anakie Road, Norlane VIC 3214",
+    "postcode": "3214",
+    "state": "VIC",
+    "venue_type": "shared_facility",
+    "location": {
+      "latitude": -38.092,
+      "longitude": 144.356,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Norlane"
+    },
+    "website_url": "https://app.geelongcity.vic.gov.au/leisuretime/",
+    "enquiry_url": "https://app.geelongcity.vic.gov.au/leisuretime/",
+    "booking_url": "https://geelongrec.perfectgym.com.au/clientportal2",
+    "sources": [
+      "https://app.geelongcity.vic.gov.au/leisuretime/"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": null,
+    "outdoor": null,
+    "notes": [
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions.",
+      "Map pin is an approximate suburb reference, not a court entrance."
+    ]
+  },
+  {
+    "id": "red-energy-west-bendigo",
+    "name": "Red Energy Arena - Bendigo Pickleball",
+    "suburb": "West Bendigo",
+    "address": "91 Inglis Street, West Bendigo VIC 3550",
+    "postcode": "3550",
+    "state": "VIC",
+    "venue_type": "shared_facility",
+    "location": {
+      "latitude": -36.75611,
+      "longitude": 144.24944,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/West_Bendigo"
+    },
+    "website_url": "https://www.bendigopickleballclub.com.au/session-types",
+    "enquiry_url": "https://www.bendigopickleballclub.com.au/session-types",
+    "booking_url": null,
+    "sources": [
+      "https://www.bendigopickleballclub.com.au/session-types",
+      "https://redenergyarena.com.au/the-arena/contact-us/"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": true,
+    "outdoor": null,
+    "notes": [
+      "Club group hire is limited to scheduled club sessions; enquire with the club.",
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions."
+    ],
+    "map_location": {
+      "latitude": -36.7580707,
+      "longitude": 144.2490386,
+      "accuracy": "verified_venue",
+      "checked_on": "2026-11-04",
+      "source_url": "https://www.bendigopickleballclub.com.au/"
+    }
+  },
+  {
+    "id": "leeds-doncaster-east",
+    "name": "Leeds Street Sports Centre",
+    "suburb": "Doncaster East",
+    "address": "10 Leeds Street, Doncaster East VIC 3109",
+    "postcode": "3109",
+    "state": "VIC",
+    "venue_type": "shared_facility",
+    "location": {
+      "latitude": -37.783,
+      "longitude": 145.166,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Doncaster_East,_Victoria"
+    },
+    "website_url": "https://activemanningham.com.au/leeds-street-sports-centre/",
+    "enquiry_url": "https://activemanningham.com.au/leeds-street-sports-centre/",
+    "booking_url": null,
+    "sources": [
+      "https://activemanningham.com.au/leeds-street-sports-centre/",
+      "https://activemanningham.com.au/pickleball/"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": null,
+    "outdoor": null,
+    "notes": [
+      "Bookings-only facility; contact the operator or Pickleball Manningham about sessions.",
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions.",
+      "Map pin is an approximate suburb reference, not a court entrance."
+    ]
+  },
+  {
+    "id": "mullum-donvale",
+    "name": "Mullum Mullum Stadium",
+    "suburb": "Donvale",
+    "address": "31 Springvale Road, Donvale VIC 3111",
+    "postcode": "3111",
+    "state": "VIC",
+    "venue_type": "shared_facility",
+    "location": {
+      "latitude": -37.797,
+      "longitude": 145.175,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Donvale"
+    },
+    "website_url": "https://activemanningham.com.au/mullum-mullum-stadium/",
+    "enquiry_url": "https://activemanningham.com.au/mullum-mullum-stadium/",
+    "booking_url": null,
+    "sources": [
+      "https://activemanningham.com.au/mullum-mullum-stadium/"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": true,
+    "outdoor": null,
+    "notes": [
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions.",
+      "Map pin is an approximate suburb reference, not a court entrance."
+    ]
+  },
+  {
+    "id": "ken-kay-wendouree",
+    "name": "Ken Kay Ballarat Badminton Stadium",
+    "suburb": "Wendouree",
+    "address": "407 Dowling Street, Wendouree VIC 3355",
+    "postcode": "3355",
+    "state": "VIC",
+    "venue_type": "shared_facility",
+    "location": {
+      "latitude": -37.532,
+      "longitude": 143.823,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Wendouree"
+    },
+    "website_url": "https://ballaratbadminton.com/",
+    "enquiry_url": "https://ballaratbadminton.com/",
+    "booking_url": null,
+    "sources": [
+      "https://ballaratbadminton.com/",
+      "https://ballaratbadminton.com/images/2024_Free_Badminton_Pickleball_Curling_PS_Clinics.pdf"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": null,
+    "outdoor": null,
+    "notes": [
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions.",
+      "Map pin is an approximate suburb reference, not a court entrance."
+    ]
+  },
+  {
+    "id": "peter-krenz-eaglehawk",
+    "name": "Peter Krenz Leisure Centre - Bendigo Pickleball",
+    "suburb": "Eaglehawk",
+    "address": "Napier Street, Eaglehawk VIC 3556",
+    "postcode": "3556",
+    "state": "VIC",
+    "venue_type": "shared_facility",
+    "location": {
+      "latitude": -36.71667,
+      "longitude": 144.25,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Eaglehawk,_Victoria"
+    },
+    "website_url": "https://www.bendigopickleballclub.com.au/session-types",
+    "enquiry_url": "https://www.bendigopickleballclub.com.au/session-types",
+    "booking_url": null,
+    "sources": [
+      "https://www.bendigopickleballclub.com.au/session-types",
+      "https://www.bendigo.vic.gov.au/things-do/pools-playgrounds-and-parks/pools/peter-krenz-leisure-centre"
+    ],
+    "checked_on": "2026-11-04",
+    "identity_status": "source_verified",
+    "pickleball": true,
+    "indoor": true,
+    "outdoor": null,
+    "notes": [
+      "Availability and prices are not checked. Contact the operator about access conditions and current sessions.",
+      "Map pin is an approximate suburb reference, not a court entrance."
+    ]
+  }
+]

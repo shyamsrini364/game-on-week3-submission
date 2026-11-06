@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en-AU">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0B2C50">
+<title>Game On! — Groups</title><link rel="icon" href="/assets/brand.svg" type="image/svg+xml"><link rel="stylesheet" href="/styles.css"><script src="/vendor/neon/auth.js" defer></script><script src="/auth-client.js" defer></script><script src="/court.js" defer></script><script src="/ernie.js" defer></script><script src="/venue-shortlist.js" defer></script><script src="/venue-picker.js" defer></script><script src="/groups.js" defer></script></head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a href="/" class="brand" aria-label="Game On home"><img src="/assets/brand.svg" alt="" width="52" height="42"><strong>Game On<span>!</span></strong></a>
+    <nav aria-label="Main navigation"><a href="/">Home</a><a href="/groups.html" aria-current="page">My groups</a></nav>
+  </header>
+<main id="main">
+<div id="flash" class="flash" role="status" hidden></div>
+
+<section id="groups-landing">
+  <div class="page-head">
+    <div><div class="eyebrow">Your people. Your games.</div><h1 id="heading">Find your crew.</h1><p id="groups-intro" class="intro">Pick up where you left off, or bring a new group together.</p></div>
+
+  </div>
+  <div class="landing-grid">
+    <section id="saved-panel" class="panel"><h2>Groups on this device</h2><div id="saved-groups" class="group-list"></div></section>
+    <div class="stack">
+      <section id="join-entry" class="panel panel-soft"><h2>Joining friends?</h2><p>Open the invitation link your organiser shared with you. A group code on its own doesn’t give access.</p></section>
+      <section id="restore-panel" class="panel"><details id="restore-access"><summary>Already in a group? Restore your access</summary><p class="small">Changed phones or cleared your browser? Enter your group code and the private access key you saved when you joined.</p><form id="restore-group">
+        <label for="restore-code">Group code</label><input id="restore-code" required maxlength="32" placeholder="PICKLE-…">
+        <label for="restore-token">Your private access key</label><input id="restore-token" type="password" required autocomplete="off" maxlength="128">
+        <button class="secondary" type="submit">Restore access</button></form></details></section>
+    </div>
+  </div>
+</section>
+
+<section id="create-panel" class="form-layout">
+  <div class="form-art"><div class="eyebrow">Your next great rally starts here</div><h2 class="art-title">Make it a regular thing.</h2><img src="/assets/court/court-empty-800.webp" width="800" height="400" alt=""><p class="small">One group for every game. Everyone picks an avatar and votes on their own times.</p></div>
+  <div class="panel">
+    <div class="eyebrow">Build your regular crew</div><h2>Create your group</h2>
+    <form id="create-group"><label for="group-name">Group name</label><input id="group-name" required minlength="2" maxlength="75" placeholder="e.g. Weekend Rally">
+    <div class="field-row"><div><label for="creator-name">Your first name</label><input id="creator-name" required maxlength="45" autocomplete="given-name"></div>
+    <div><label for="creator-suburb">Your suburb</label><input id="creator-suburb" required minlength="2" maxlength="90" list="suburbs"></div></div>
+    <fieldset><legend>Your avatar</legend><div id="creator-avatar"></div><p class="small">You can change it later.</p></fieldset>
+    <button class="primary full" type="submit">Create group</button>
+    <p class="small">No account needed. You’ll get a private access key to keep, so you can get back in on another device.</p></form>
+  </div>
+</section>
+
+<section id="invite-panel" class="form-layout" hidden>
+  <div class="form-art"><div class="eyebrow">Your next great rally starts here</div><h2 class="art-title">Find your people.</h2><img src="/assets/court/court-empty-800.webp" width="800" height="400" alt=""><p class="small">One group for every game. Everyone picks an avatar and votes on their own times.</p></div>
+  <div class="panel">
+    <div class="eyebrow" id="invite-heading">You’re invited</div><h2>See you on court.</h2><p class="small">A first name, a suburb and an avatar. That’s it.</p>
+    <form id="join-group"><div class="field-row"><div><label for="join-name">Your first name</label><input id="join-name" required maxlength="45" autocomplete="given-name"></div>
+    <div><label for="join-suburb">Your suburb</label><input id="join-suburb" required minlength="2" maxlength="90" list="suburbs"></div></div>
+    <fieldset><legend>Your avatar</legend><div id="join-avatar"></div></fieldset>
+    <details class="fold"><summary>Favourite venues (optional)</summary><div id="join-favourites"></div></details>
+    <button class="primary full" type="submit">Join the crew</button></form>
+  </div>
+</section>
+
+<section id="group-panel" hidden>
+  <div class="page-head">
+    <div><div class="eyebrow">Your group</div><h1 id="group-title"></h1><p id="group-role" class="meta"></p><p id="group-organiser" class="small"></p></div>
+    <a id="create-game" class="primary" href="/">Start a game</a>
+  </div>
+  <div class="group-layout">
+    <div class="stack">
+      <section id="group-court" aria-label="Group membership"></section>
+      <section class="panel"><h2>Games</h2><div id="games" class="group-list"></div></section>
+      <section class="panel compact"><h2>Members</h2><p id="members"></p></section>
+    </div>
+    <div class="stack">
+      <section id="owner-panel" class="panel" hidden>
+        <h2>Invite your friends</h2><p class="small">Share the invitation link in your group chat. It works for 30 days, and friends who’ve joined stay in the group.</p>
+        <button id="new-invitation" class="primary">Create invitation link</button>
+        <div id="invitation-output" hidden><label for="invitation-link">Invitation link</label><input id="invitation-link" readonly>
+        <div class="share-actions"><button id="whatsapp-invitation" class="primary">Share on WhatsApp</button><button id="copy-invitation" class="secondary">Copy link</button></div></div>
+        <details id="manage-invitations" class="fold"><summary>Invitation options</summary><p class="small">Creating a new link replaces the old one. Revoking stops new joins; existing members keep access.</p>
+        <div class="share-actions"><button id="revoke-invitation" class="secondary">Revoke invitation</button></div></details>
+        <details class="fold"><summary>Group settings</summary>
+        <form id="settings"><label for="settings-name">Group name</label><input id="settings-name" required minlength="2" maxlength="75">
+        <fieldset><legend>Group favourite venues</legend><div id="group-favourites"></div></fieldset>
+        <label class="vote-option"><input type="checkbox" id="restrict">Only suggest our group’s or players’ favourite venues</label>
+        <p class="small">Leave this unticked to also see good alternatives.</p><button class="primary" type="submit">Save group settings</button></form></details>
+      </section>
+      <section class="panel">
+        <details class="fold"><summary>Your profile &amp; avatar</summary>
+        <form id="profile"><div class="field-row"><div><label for="profile-name">First name</label><input id="profile-name" required maxlength="45"></div>
+        <div><label for="profile-suburb">Suburb</label><input id="profile-suburb" required minlength="2" maxlength="90" list="suburbs"></div></div>
+        <fieldset><legend>Your avatar</legend><div id="profile-avatar"></div></fieldset>
+        <fieldset><legend>Your favourite venues</legend><div id="profile-favourites"></div></fieldset>
+        <button class="primary" type="submit">Save my profile</button></form></details>
+      </section>
+      <section class="panel">
+        <details class="fold"><summary>Keep access to this group</summary>
+        <p id="group-code"></p>
+        <p class="small">Your private access key gets you back in on a new device. Keep it in a password manager and never share it. It isn’t an invitation.</p>
+        <div class="share-actions"><button id="backup" class="secondary">Copy my private access key</button><button id="rotate-credential" class="secondary">Replace my key</button></div>
+        <p class="small">Replacing your key stops old copies from working. Save the new one straight away.</p></details>
+      </section>
+    </div>
+  </div>
+</section>
+<datalist id="suburbs"></datalist>
+</main><footer>Game On! by Agentdote · Made for your next rally</footer>
+</body></html>

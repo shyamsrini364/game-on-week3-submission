@@ -1,0 +1,182 @@
+{
+  "Clyde": {
+    "latitude": -38.132,
+    "longitude": 145.327,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Clyde,_Victoria"
+  },
+  "Lyndhurst": {
+    "latitude": -38.07056,
+    "longitude": 145.24667,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Lyndhurst,_Victoria"
+  },
+  "Clayton": {
+    "latitude": -37.915,
+    "longitude": 145.13,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Clayton,_Victoria"
+  },
+  "Wantirna South": {
+    "latitude": -37.881,
+    "longitude": 145.224,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Wantirna_South,_Victoria"
+  },
+  "Springvale": {
+    "latitude": -37.947,
+    "longitude": 145.153,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Springvale,_Victoria"
+  },
+  "Maidstone": {
+    "latitude": -37.783,
+    "longitude": 144.878,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Maidstone,_Victoria"
+  },
+  "Pascoe Vale": {
+    "latitude": -37.727,
+    "longitude": 144.942,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Pascoe_Vale,_Victoria"
+  },
+  "Altona": {
+    "latitude": -37.868,
+    "longitude": 144.83,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Altona,_Victoria"
+  },
+  "Glen Waverley": {
+    "latitude": -37.88,
+    "longitude": 145.164,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Glen_Waverley,_Victoria"
+  },
+  "Bayswater": {
+    "latitude": -37.843,
+    "longitude": 145.268,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Bayswater,_Victoria"
+  },
+  "Moorabbin": {
+    "latitude": -37.941,
+    "longitude": 145.058,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Moorabbin"
+  },
+  "Brooklyn": {
+    "latitude": -37.813,
+    "longitude": 144.841,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Brooklyn,_Victoria"
+  },
+  "Hampton": {
+    "latitude": -37.937,
+    "longitude": 145.009,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Hampton,_Victoria"
+  },
+  "Ravenhall": {
+    "latitude": -37.765,
+    "longitude": 144.75,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Ravenhall,_Victoria"
+  },
+  "Epping": {
+    "latitude": -37.63778,
+    "longitude": 145.02639,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Epping,_Victoria"
+  },
+  "South Melbourne": {
+    "latitude": -37.835,
+    "longitude": 144.96,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/South_Melbourne"
+  },
+  "Bundoora": {
+    "latitude": -37.695,
+    "longitude": 145.064,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Bundoora"
+  },
+  "Brighton": {
+    "latitude": -37.905,
+    "longitude": 144.996,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Brighton,_Victoria"
+  },
+  "Noble Park North": {
+    "latitude": -37.942,
+    "longitude": 145.19,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Noble_Park_North"
+  },
+  "Mentone": {
+    "latitude": -37.985,
+    "longitude": 145.06889,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Mentone,_Victoria"
+  },
+  "Bentleigh East": {
+    "latitude": -37.921,
+    "longitude": 145.067,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Bentleigh_East"
+  },
+  "Wangaratta": {
+    "latitude": -36.35833,
+    "longitude": 146.3125,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Wangaratta"
+  },
+  "Chadstone": {
+    "latitude": -37.883,
+    "longitude": 145.093,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Chadstone,_Victoria"
+  },
+  "Patterson Lakes": {
+    "latitude": -38.076,
+    "longitude": 145.122,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Patterson_Lakes,_Victoria"
+  },
+  "Norlane": {
+    "latitude": -38.092,
+    "longitude": 144.356,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Norlane"
+  },
+  "West Bendigo": {
+    "latitude": -36.75611,
+    "longitude": 144.24944,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/West_Bendigo"
+  },
+  "Doncaster East": {
+    "latitude": -37.783,
+    "longitude": 145.166,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Doncaster_East,_Victoria"
+  },
+  "Donvale": {
+    "latitude": -37.797,
+    "longitude": 145.175,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Donvale"
+  },
+  "Wendouree": {
+    "latitude": -37.532,
+    "longitude": 143.823,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Wendouree"
+  },
+  "Eaglehawk": {
+    "latitude": -36.71667,
+    "longitude": 144.25,
+    "accuracy": "suburb_reference_point",
+    "source_url": "https://en.wikipedia.org/wiki/Eaglehawk,_Victoria"
+  }
+}

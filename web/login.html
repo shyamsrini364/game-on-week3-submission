@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Sign in — Game On!</title><link rel="stylesheet" href="/styles.css"><link rel="icon" href="/assets/brand.svg" type="image/svg+xml"><script src="/vendor/neon/auth.js" defer></script><script src="/auth-client.js" defer></script><script src="/login.js" defer></script></head>
+<body><header class="topbar"><a class="brand" href="/"><img src="/assets/brand.svg" width="52" height="42" alt=""><strong>Game On!</strong></a><nav aria-label="Main navigation"><a href="/groups.html">My groups</a></nav></header>
+<main><section class="panel login-panel"><div class="eyebrow">Your people. Your games.</div><h1>Welcome back.</h1><p>Sign in to keep your groups and profile with you on every device.</p>
+<p id="login-status" role="status" aria-live="polite">Checking sign-in…</p>
+<form id="login-form" hidden><label for="email">Email address</label><input id="email" type="email" autocomplete="email" required maxlength="254"><button class="primary" type="submit">Email me a sign-in link</button></form>
+<form id="otp-form" hidden><p class="small">Prefer a code? Send one to the email address above.</p><button id="send-code" type="button" class="secondary">Email a sign-in code</button><label for="otp">Sign-in code</label><input id="otp" inputmode="numeric" autocomplete="one-time-code" required maxlength="12"><button class="secondary" type="submit">Sign in with code</button></form>
+<p class="small">Open the link in the browser where you started. If you switch browsers, reopen your invitation after signing in. Some browsers block the cookies needed for sign-in.</p>
+<a id="continue" href="/groups.html" class="primary" hidden>Continue to My groups</a></section></main></body></html>

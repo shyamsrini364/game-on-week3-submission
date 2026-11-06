@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env*
+!.env.example
+.vercel/
+.local/
+/data/
+*.sqlite*
+*.db
+*.log

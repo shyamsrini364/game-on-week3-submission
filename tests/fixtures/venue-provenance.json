@@ -1,0 +1,278 @@
+{
+  "records": [
+    {
+      "venue_id": "melbourne-pickle-moorabbin",
+      "source_urls": [
+        "https://melbournepickleclub.playbypoint.com/",
+        "https://melbournepickleclub.com.au/"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Moorabbin"
+    },
+    {
+      "venue_id": "pickle-haus-brooklyn",
+      "source_urls": [
+        "https://picklehaus.com.au/"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "verified_venue",
+      "coordinate_source": "https://picklehaus.com.au/"
+    },
+    {
+      "venue_id": "bayside-hampton",
+      "source_urls": [
+        "https://melbournebaysidepickleball.au/"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Hampton,_Victoria"
+    },
+    {
+      "venue_id": "real-dill-ravenhall",
+      "source_urls": [
+        "https://www.therealdill.com.au/"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "verified_venue",
+      "coordinate_source": "https://www.therealdill.com.au/"
+    },
+    {
+      "venue_id": "real-dill-epping",
+      "source_urls": [
+        "https://www.therealdill.com.au/"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Epping,_Victoria"
+    },
+    {
+      "venue_id": "the-jar-south-melbourne",
+      "source_urls": [
+        "https://thejar.club/southmelbourne"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/South_Melbourne"
+    },
+    {
+      "venue_id": "swing-serve-bundoora",
+      "source_urls": [
+        "https://www.swingandserve.com.au/pickleball",
+        "https://www.swingandserve.com.au/contact"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "verified_venue",
+      "coordinate_source": "https://www.swingandserve.com.au/pickleball"
+    },
+    {
+      "venue_id": "elsternwick-park-brighton",
+      "source_urls": [
+        "https://www.elsternwickparktenniscentre.com.au/pickleball.html",
+        "https://www.elsternwickparktenniscentre.com.au/"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "verified_venue",
+      "coordinate_source": "https://www.elsternwickparktenniscentre.com.au/pickleball.html"
+    },
+    {
+      "venue_id": "powerhouse-noble-park-north",
+      "source_urls": [
+        "https://pickleballpowerhouse.com.au/"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Noble_Park_North"
+    },
+    {
+      "venue_id": "pickle4real-mentone",
+      "source_urls": [
+        "https://pickle4real.com.au/"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Mentone,_Victoria"
+    },
+    {
+      "venue_id": "pickleplay-bentleigh-east",
+      "source_urls": [
+        "https://pickleplay.com.au/",
+        "https://pickleplay.com.au/contact-us/"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Bentleigh_East"
+    },
+    {
+      "venue_id": "wangaratta-hardcourt",
+      "source_urls": [
+        "https://wangaratta-pickleball.com.au/"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Wangaratta"
+    },
+    {
+      "venue_id": "margaret-connellan-chadstone",
+      "source_urls": [
+        "https://www.stonnington.vic.gov.au/active/Sport-and-facilities/Stadiums/Margaret-Connellan-Stadium"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Chadstone,_Victoria"
+    },
+    {
+      "venue_id": "glen-waverley-bowls",
+      "source_urls": [
+        "https://www.monash.vic.gov.au/Community/Community-Directory/Glen-Waverley-Bowls-Club-and-Function-Centre"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Glen_Waverley,_Victoria"
+    },
+    {
+      "venue_id": "carlson-reserve-clayton",
+      "source_urls": [
+        "https://shape.monash.vic.gov.au/carlson-courts"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Clayton,_Victoria"
+    },
+    {
+      "venue_id": "patterson-lakes-community",
+      "source_urls": [
+        "https://www.kingston.vic.gov.au/community/events/upcoming-events/social-pickleball-patterson-lakes"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Patterson_Lakes,_Victoria"
+    },
+    {
+      "venue_id": "leisuretime-norlane",
+      "source_urls": [
+        "https://app.geelongcity.vic.gov.au/leisuretime/"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Norlane"
+    },
+    {
+      "venue_id": "red-energy-west-bendigo",
+      "source_urls": [
+        "https://www.bendigopickleballclub.com.au/session-types",
+        "https://redenergyarena.com.au/the-arena/contact-us/"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "verified_venue",
+      "coordinate_source": "https://www.bendigopickleballclub.com.au/"
+    },
+    {
+      "venue_id": "leeds-doncaster-east",
+      "source_urls": [
+        "https://activemanningham.com.au/leeds-street-sports-centre/",
+        "https://activemanningham.com.au/pickleball/"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Doncaster_East,_Victoria"
+    },
+    {
+      "venue_id": "mullum-donvale",
+      "source_urls": [
+        "https://activemanningham.com.au/mullum-mullum-stadium/"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Donvale"
+    },
+    {
+      "venue_id": "ken-kay-wendouree",
+      "source_urls": [
+        "https://ballaratbadminton.com/",
+        "https://ballaratbadminton.com/images/2024_Free_Badminton_Pickleball_Curling_PS_Clinics.pdf"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Wendouree"
+    },
+    {
+      "venue_id": "peter-krenz-eaglehawk",
+      "source_urls": [
+        "https://www.bendigopickleballclub.com.au/session-types",
+        "https://www.bendigo.vic.gov.au/things-do/pools-playgrounds-and-parks/pools/peter-krenz-leisure-centre"
+      ],
+      "checked_on": "2026-11-04",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Eaglehawk,_Victoria"
+    },
+    {
+      "venue_id": "level-up-knox",
+      "source_urls": [
+        "https://www.nplpickleball.com.au/pickleball/melbourne",
+        "https://book.leveluppickleball.com.au/users/sign_in"
+      ],
+      "checked_on": "2026-11-03",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Wantirna_South,_Victoria"
+    },
+    {
+      "venue_id": "pickleholic-clayton",
+      "source_urls": [
+        "https://www.pickleholic.com.au/",
+        "https://book.pickleholic.com.au/users/sign_in"
+      ],
+      "checked_on": "2026-11-03",
+      "coordinate_precision": "verified_venue",
+      "coordinate_source": "https://www.pickleholic.com.au/"
+    },
+    {
+      "venue_id": "picklezone-springvale",
+      "source_urls": [
+        "https://picklezone.com.au/"
+      ],
+      "checked_on": "2026-11-03",
+      "coordinate_precision": "verified_venue",
+      "coordinate_source": "https://picklezone.com.au/"
+    },
+    {
+      "venue_id": "the-jar-maidstone",
+      "source_urls": [
+        "https://thejar.club/maidstone",
+        "https://www.nplpickleball.com.au/pickleball/melbourne"
+      ],
+      "checked_on": "2026-11-03",
+      "coordinate_precision": "verified_venue",
+      "coordinate_source": "https://thejar.club/maidstone"
+    },
+    {
+      "venue_id": "palace-pascoe-vale",
+      "source_urls": [
+        "https://pickleballpalace.com.au/pascoe-vale/"
+      ],
+      "checked_on": "2026-11-03",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Pascoe_Vale,_Victoria"
+    },
+    {
+      "venue_id": "the-rally-altona",
+      "source_urls": [
+        "https://www.nplpickleball.com.au/pickleball/melbourne",
+        "https://therallypickleball.playbypoint.com/"
+      ],
+      "checked_on": "2026-11-03",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Altona,_Victoria"
+    },
+    {
+      "venue_id": "state-pickleball-bayswater",
+      "source_urls": [
+        "https://www.statepickleball.com.au/",
+        "https://statepickleballcentre.playbypoint.com/"
+      ],
+      "checked_on": "2026-11-03",
+      "coordinate_precision": "suburb_reference_point",
+      "coordinate_source": "https://en.wikipedia.org/wiki/Bayswater,_Victoria"
+    }
+  ]
+}

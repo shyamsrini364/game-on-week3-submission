@@ -1,0 +1,159 @@
+[
+  {
+    "id": "level-up-knox",
+    "name": "Level Up Pickleball",
+    "suburb": "Wantirna South",
+    "address": "Westfield Knox, Shop 9068C, Knox Ozone, Wantirna South VIC 3152",
+    "location": {
+      "latitude": -37.881,
+      "longitude": 145.224,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Wantirna_South,_Victoria"
+    },
+    "website_url": "https://www.leveluppickleball.com.au/",
+    "booking_url": "https://book.leveluppickleball.com.au/",
+    "booking_provider": "Playbypoint",
+    "provider_evidence_url": "https://book.leveluppickleball.com.au/users/sign_in",
+    "sources": [
+      "https://www.nplpickleball.com.au/pickleball/melbourne",
+      "https://book.leveluppickleball.com.au/users/sign_in"
+    ],
+    "checked_on": "2026-11-03",
+    "indoor": true,
+    "notes": [
+      "Location is a suburb reference point, not the venue entrance. Court availability has not been checked."
+    ]
+  },
+  {
+    "id": "pickleholic-clayton",
+    "name": "Pickleholic",
+    "suburb": "Clayton",
+    "address": "45 Winterton Road, Clayton VIC 3168",
+    "location": {
+      "latitude": -37.915,
+      "longitude": 145.13,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Clayton,_Victoria"
+    },
+    "website_url": "https://www.pickleholic.com.au/",
+    "booking_url": "https://book.pickleholic.com.au/home",
+    "booking_provider": "Playbypoint",
+    "provider_evidence_url": "https://book.pickleholic.com.au/users/sign_in",
+    "sources": [
+      "https://www.pickleholic.com.au/",
+      "https://book.pickleholic.com.au/users/sign_in"
+    ],
+    "checked_on": "2026-11-03",
+    "indoor": true,
+    "notes": [
+      "Location is a suburb reference point, not the venue entrance. Court availability has not been checked.",
+      "Rendered price placeholders are not accepted as verified prices."
+    ]
+  },
+  {
+    "id": "picklezone-springvale",
+    "name": "PickleZone",
+    "suburb": "Springvale",
+    "address": "6 Brough St, Springvale VIC 3171",
+    "location": {
+      "latitude": -37.947,
+      "longitude": 145.153,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Springvale,_Victoria"
+    },
+    "website_url": "https://picklezone.com.au/",
+    "booking_url": "https://picklezone.sportlogic.net.au/secure/customer/booking/v2/public/venues",
+    "booking_provider": "SportLogic",
+    "provider_evidence_url": "https://picklezone.com.au/",
+    "sources": [
+      "https://picklezone.com.au/"
+    ],
+    "checked_on": "2026-11-03",
+    "indoor": true,
+    "notes": [
+      "Location is a suburb reference point, not the venue entrance. Court availability has not been checked.",
+      "Temporary promotional price excluded: no stated end date or slot-specific confirmation."
+    ]
+  },
+  {
+    "id": "the-jar-maidstone",
+    "name": "The Jar Maidstone",
+    "suburb": "Maidstone",
+    "address": "35 Emu Road, Maidstone VIC 3012",
+    "location": {
+      "latitude": -37.783,
+      "longitude": 144.878,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Maidstone,_Victoria"
+    },
+    "website_url": "https://thejar.club/maidstone",
+    "booking_url": "https://thejar.club/maidstone",
+    "booking_provider": null,
+    "provider_evidence_url": null,
+    "sources": [
+      "https://thejar.club/maidstone",
+      "https://www.nplpickleball.com.au/pickleball/melbourne"
+    ],
+    "checked_on": "2026-11-03",
+    "indoor": true,
+    "notes": [
+      "Location is a suburb reference point, not the venue entrance. Court availability has not been checked."
+    ]
+  },
+  {
+    "id": "palace-pascoe-vale",
+    "name": "Pickleball Palace Pascoe Vale",
+    "suburb": "Pascoe Vale",
+    "address": "2 Attercliffe Avenue, Pascoe Vale VIC 3044",
+    "location": {
+      "latitude": -37.727,
+      "longitude": 144.942,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Pascoe_Vale,_Victoria"
+    },
+    "website_url": "https://pickleballpalace.com.au/pascoe-vale/",
+    "booking_url": "https://pickleballpalace.playbypoint.com/",
+    "booking_provider": "Playbypoint",
+    "provider_evidence_url": "https://pickleballpalace.com.au/pascoe-vale/",
+    "sources": [
+      "https://pickleballpalace.com.au/pascoe-vale/"
+    ],
+    "checked_on": "2026-11-03",
+    "indoor": true,
+    "notes": [
+      "Location is a suburb reference point, not the venue entrance. Court availability has not been checked.",
+      "Official page requests at least 24 hours notice to confirm bookings; check with venue."
+    ],
+    "price": {
+      "aud_per_court_hour": 50.0,
+      "basis": "advertised_nonmember_rate",
+      "note": "Advertised non-member rate; off-peak discounts may apply. Not a slot quote.",
+      "source_url": "https://pickleballpalace.com.au/pascoe-vale/"
+    }
+  },
+  {
+    "id": "the-rally-altona",
+    "name": "The Rally Pickleball",
+    "suburb": "Altona",
+    "address": "82 Drake Blvd, Altona VIC 3018",
+    "location": {
+      "latitude": -37.868,
+      "longitude": 144.83,
+      "accuracy": "suburb_reference_point",
+      "source_url": "https://en.wikipedia.org/wiki/Altona,_Victoria"
+    },
+    "website_url": "https://therallypickleball.playbypoint.com/",
+    "booking_url": "https://therallypickleball.playbypoint.com/",
+    "booking_provider": "Playbypoint",
+    "provider_evidence_url": "https://therallypickleball.playbypoint.com/",
+    "sources": [
+      "https://www.nplpickleball.com.au/pickleball/melbourne",
+      "https://therallypickleball.playbypoint.com/"
+    ],
+    "checked_on": "2026-11-03",
+    "indoor": null,
+    "notes": [
+      "Location is a suburb reference point, not the venue entrance. Court availability has not been checked."
+    ]
+  }
+]
